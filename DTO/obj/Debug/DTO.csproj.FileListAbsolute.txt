@@ -1,0 +1,12 @@
+D:\Workspace\VisualStudioWorkspace\RestaurantManagementProject\DTO\bin\Debug\DTO.dll
+D:\Workspace\VisualStudioWorkspace\RestaurantManagementProject\DTO\bin\Debug\DTO.pdb
+D:\Workspace\VisualStudioWorkspace\RestaurantManagementProject\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Workspace\VisualStudioWorkspace\RestaurantManagementProject\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Workspace\VisualStudioWorkspace\RestaurantManagementProject\DTO\obj\Debug\DTO.dll
+D:\Workspace\VisualStudioWorkspace\RestaurantManagementProject\DTO\obj\Debug\DTO.pdb
+D:\Workspace\C#\RestaurantManagementProject\DTO\bin\Debug\DTO.dll
+D:\Workspace\C#\RestaurantManagementProject\DTO\bin\Debug\DTO.pdb
+D:\Workspace\C#\RestaurantManagementProject\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Workspace\C#\RestaurantManagementProject\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Workspace\C#\RestaurantManagementProject\DTO\obj\Debug\DTO.dll
+D:\Workspace\C#\RestaurantManagementProject\DTO\obj\Debug\DTO.pdb

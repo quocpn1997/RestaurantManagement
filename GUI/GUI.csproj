@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D15CC85-2888-4E4C-A690-8927899B55B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\quocp\OneDrive\Documents\Visual Studio 2017\Theme\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUserForm.Designer.cs">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillFoodDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BillFoodDetail.Designer.cs">
+      <DependentUpon>BillFoodDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodOrderPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FoodOrderPanel.Designer.cs">
+      <DependentUpon>FoodOrderPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderPanel.Designer.cs">
+      <DependentUpon>OrderPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EatIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EatIn.Designer.cs">
+      <DependentUpon>EatIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserPanel.Designer.cs">
+      <DependentUpon>UserPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddUserForm.resx">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillFoodDetail.resx">
+      <DependentUpon>BillFoodDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodOrderPanel.resx">
+      <DependentUpon>FoodOrderPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderPanel.resx">
+      <DependentUpon>OrderPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EatIn.resx">
+      <DependentUpon>EatIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFOrm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPanel.resx">
+      <DependentUpon>UserPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseForm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeliveryIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeliveryIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmployeeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmployeeIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoutIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinimizeForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinimizeForm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PasswordLoginIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QuitIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RestaurantLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResultIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResultIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeAwayIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TakeAwayIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserAvatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UsernameLoginIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{c1b30bd4-58a9-4e71-a848-c6c0a756fdb7}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddUserIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdateIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserAvatar0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableEmpty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableLabel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckOutIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinusIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlusIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
