@@ -162,6 +162,7 @@
             // 
             // foodDetailPanel
             // 
+            this.foodDetailPanel.AutoScroll = true;
             this.foodDetailPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.foodDetailPanel.Location = new System.Drawing.Point(0, 122);
             this.foodDetailPanel.Name = "foodDetailPanel";
